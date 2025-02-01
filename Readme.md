@@ -13,11 +13,13 @@ Before getting started, ensure you have the following installed:
 Download and install Python 3.12.8 from the [official website](https://www.python.org/downloads/). Verify the installation by running:
 ```bash
 python --version
+git clone https://github.com/Lance-07/wewo-admin.git
 ```
 
 ### 2. Set Up a Virtual Environment
 Create and activate a virtual environment:
 ```bash
+cd path-to-clone-repository
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
